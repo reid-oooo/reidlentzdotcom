@@ -8,7 +8,10 @@ import {
   CurrencyDollarIcon, 
   ShieldCheckIcon,
   CpuChipIcon,
-  HandshakeIcon
+  HandRaisedIcon,
+  CogIcon,
+  GlobeAltIcon,
+  TrophyIcon
 } from "@heroicons/react/24/outline";
 
 export default function Achievements() {
@@ -18,7 +21,10 @@ export default function Achievements() {
     "💰": CurrencyDollarIcon,
     "🛡️": ShieldCheckIcon,
     "🤖": CpuChipIcon,
-    "🤝": HandshakeIcon,
+    "🤝": HandRaisedIcon,
+    "⚙️": CogIcon,
+    "🌍": GlobeAltIcon,
+    "🏆": TrophyIcon,
   };
 
   return (

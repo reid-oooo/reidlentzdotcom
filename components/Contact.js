@@ -12,9 +12,8 @@ import {
 
 export default function Contact() {
   const socialLinks = [
-    { name: 'GitHub', url: resumeData.contact.github, icon: '🐙', color: 'from-gray-500 to-gray-700' },
+    { name: 'Podcast', url: resumeData.contact.podcast, icon: '📺', color: 'from-gray-500 to-gray-700' },
     { name: 'LinkedIn', url: resumeData.contact.linkedin, icon: '💼', color: 'from-blue-500 to-blue-700' },
-    { name: 'Twitter', url: resumeData.contact.twitter, icon: '🐦', color: 'from-sky-400 to-sky-600' }
   ];
 
   return (
@@ -126,7 +125,7 @@ export default function Contact() {
           >
             <h3 className="text-2xl font-bold mb-6 flex items-center gap-3">
               <GlobeAltIcon className="w-8 h-8 text-orange-300" />
-              Follow Me
+              Find Me
             </h3>
             
             <div className="grid grid-cols-1 gap-4">
@@ -148,7 +147,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-white">{social.name}</p>
-                    <p className="text-sm text-blue-100">Connect with me</p>
+                    <p className="text-sm text-blue-100">Catch me here</p>
                   </div>
                 </motion.a>
               ))}

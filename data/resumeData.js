@@ -1,118 +1,147 @@
 export const resumeData = {
   hero: {
     name: "Reid Lentz",
-    title: "Chief Technology Officer",
-    tagline: "Driving Innovation in Technology & Product Strategy",
+    title: "Technology & Engineering Executive",
+    tagline: "Driving Digital Transformation, AI Innovation, and Enterprise Modernization",
   },
   achievements: [
     {
-      title: "Technology Leadership Excellence",
-      description: "Led multiple organizations through digital transformation, achieving 90%+ system reliability and 40% efficiency gains.",
-      icon: "📈",
-    },
-    {
-      title: "Strategic Product Development",
-      description: "Architected and delivered scalable SaaS platforms generating $20M+ in revenue pipeline.",
-      icon: "🚀",
-    },
-    {
-      title: "Cost Optimization & Savings",
-      description: "Implemented cost-saving initiatives resulting in $3M+ annual savings through innovative technology solutions.",
-      icon: "💰",
-    },
-    {
-      title: "Team Leadership & Growth",
-      description: "Built and mentored high-performing engineering teams, improving delivery speed by 30%.",
-      icon: "🛡️",
-    },
-    {
-      title: "AI & Machine Learning Innovation",
-      description: "Pioneered AI-powered solutions across 180+ countries, achieving 50% efficiency gains.",
+      title: "AI & Digital Transformation Leadership",
+      description: "Led enterprise-scale AI implementations and $100M+ platform modernizations, delivering 50%+ efficiency gains across global operations.",
       icon: "🤖",
     },
     {
-      title: "Enterprise Partnerships",
-      description: "Secured multi-million-dollar contracts with Fortune 500 companies including Walmart.com.",
+      title: "Operational Excellence",
+      description: "Achieved 99%+ system reliability, 40%+ efficiency improvements, and millions in cost savings through infrastructure modernization.",
+      icon: "⚙️",
+    },
+    {
+      title: "Revenue Growth & Market Impact",
+      description: "Drove $5M in ARR and supported $20M+ sales pipeline through SaaS platforms for retail, logistics, and emerging tech sectors.",
+      icon: "📈",
+    },
+    {
+      title: "Strategic Partnerships",
+      description: "Secured multi-million-dollar contracts with enterprise clients including Walmart.com and Fortune 500 companies.",
       icon: "🤝",
+    },
+    {
+      title: "Global Team Leadership",
+      description: "Directed teams of 250+ across data, engineering, AI, infrastructure, and operations in high-growth, global environments.",
+      icon: "🌍",
+    },
+    {
+      title: "Innovation in Product Development",
+      description: "Pioneered award-winning platforms, and solutions with AI-powered backbones across 180+ countries.",
+      icon: "🏆",
     }
   ],
   experience: [
     {
-      company: "Eomhaho, West Palm Beach, FL",
-      role: "Chief Technology Officer",
-      period: "2021 - Present",
+      company: "Cephas Partners, West Palm Beach, FL",
+      role: "Head Problem Solver & AI Optimizer",
+      period: "2025 - Present",
       achievements: [
-        "Drove $5M in ARR and supported a $20M sales pipeline with scalable SaaS platforms",
-        "Secured a multi-million-dollar contract with Walmart.com for fulfillment technology",
-        "Led digital transformation initiatives improving system reliability by 90%",
-        "Architected cloud-native solutions reducing infrastructure costs by 40%",
-        "Built and mentored engineering teams of 15+ developers"
+        "Advised executives on AI strategy and digital transformation for scalable growth.",
+        "Launched Vibe Life Coach mobile app with in-app subscriptions, leveraging NRC Emotion Lexicon for real time sentiment analysis.",
+        "Supercharge development practices with AI-powered tools embedded into enterprise frameworks."
       ],
     },
     {
-      company: "Previous CTO Role",
-      role: "Chief Technology Officer",
-      period: "2019 - 2021",
+      company: "Voyager Global Mobility, NYC/Remote",
+      role: "Chief Information & Technology Officer",
+      period: "2023 - 2025",
       achievements: [
-        "Led technology strategy for enterprise-level logistics platform",
-        "Implemented AI-driven solutions improving operational efficiency by 35%",
-        "Managed $10M+ technology budget and vendor relationships",
-        "Established DevOps practices reducing deployment time by 60%",
-        "Drove product roadmap alignment with business objectives"
+        "Improved system reliability to 99.9%+ using SRE best practices and observability tooling.",
+        "Achieved $3M+ annual savings via proprietary telematics and analytics platform.",
+        "Reduced safety incidents 30%+ through ML-based driver safety program for 4,000+ drivers.",
+        "Engineered GenAI sales chatbot with WhatsApp integration, avoiding 10+ sales hires.",
+      ],
+    },
+    {
+      company: "Ecomhalo, West Palm Beach, FL",
+      role: "Chief Product & Technology Officer",
+      period: "2021 - 2023",
+      achievements: [
+        "Generated $5M ARR and supported $20M+ sales pipeline through scalable SaaS platforms.",
+        "Secured multi-million-dollar Walmart.com contract under tight timelines.",
+        "Launched modular enterprise 3PL platform integrating Shopify, Amazon, and DTC channels.",
       ],
     },
     {
       company: "FedEx Corporation, Memphis, TN",
-      role: "Director of Software Engineering",
-      period: "2018 - 2019",
+      role: "Director of Software Engineering, FedEx Logistics",
+      period: "2020 - 2021",
       achievements: [
-        "Delivered an AI-powered customs classification platform across 180+ countries",
-        "Achieved 50% efficiency gains in global clearance processes",
-        "Led team of 25+ engineers across multiple time zones",
-        "Implemented microservices architecture improving system scalability",
-        "Reduced application response time by 40% through optimization"
+        "Directed global AI-powered customs classification platform across 180+ countries.",
+        "Delivered 50% efficiency gains in customs clearance processes.",
+        "Overcame compliance barriers to launch FDA-regulated AI modules."
       ],
     },
     {
-      company: "Previous Director Role",
-      role: "Director of Technology",
-      period: "2016 - 2018",
+      company: "FedEx Trade Networks",
+      role: "Managing Director of Global IT Infrastructure & Operations",
+      period: "2018 - 2020",
       achievements: [
-        "Managed technology portfolio of 15+ applications and systems",
-        "Led migration to cloud infrastructure saving $2M annually",
-        "Implemented CI/CD pipelines reducing release cycles by 70%",
-        "Established data governance framework improving data quality by 80%",
-        "Drove innovation initiatives resulting in 3 patent applications"
+        "Oversaw $38M+ budgets and secured $7M in strategic funding.",
+        "Reduced outages 50%+ and improved system availability above 95%.",
+        "Migrated 100+ critical apps to hybrid and multi-cloud, saving $4–6M annually."
       ],
     },
     {
-      company: "Technology Company",
-      role: "Engineering Manager",
-      period: "2014 - 2016",
+      company: "FedEx",
+      role: "Manager IT, Enterprise Systems",
+      period: "2013 - 2018",
       achievements: [
-        "Led development team of 12 engineers delivering 5 major products",
-        "Improved code quality metrics by 60% through best practices",
-        "Reduced bug reports by 45% through automated testing",
-        "Mentored junior developers and established career development programs",
-        "Achieved 95% customer satisfaction score for delivered products"
+        "Led TNT Express integration across three countries within 12 months.",
+        "Architected FedEx Onsite, deploying 6,000+ service touchpoints.",
+        "Retired legacy Sybase platform, saving $1M+ annually."
       ],
-    }
+    },
   ],
-  skills: [
-    { name: "Technology Leadership", level: 95 },
-    { name: "Product Strategy", level: 90 },
-    { name: "AI & Machine Learning", level: 88 },
-    { name: "Cloud Architecture", level: 92 },
-    { name: "SaaS Platforms", level: 90 },
-    { name: "Team Management", level: 85 },
-    { name: "DevOps & CI/CD", level: 87 },
-    { name: "Enterprise Architecture", level: 89 }
-  ],
+  skills: {
+    platforms: [
+      { name: "Dell Storage Solutions", category: "Enterprise Storage & Backup" },
+      { name: "AWS Cloud Platform, Google Cloud Platform, Oracle Cloud Infrastructure", category: "Cloud Infrastructure" },
+      { name: "Kubernetes & Docker", category: "Containerization" },
+      { name: "AWS Kinesis, Apache Kafka & Redis", category: "Data Streaming & Caching" },
+      { name: "Dataflow & Snowflake", category: "Data Platforms" },
+      { name: "Oracle, MySQL, PostgreSQL, DynamoDB & MongoDB", category: "Databases" },
+      { name: "Elasticsearch", category: "Search & Analytics" },
+      { name: "Terraform, CloudFormation & Ansible", category: "Infrastructure as Code" },
+      { name: "Jenkins, CloudBees, GitLab CI/CD & GitHub Actions", category: "CI/CD & Automation" },
+      { name: "AWS Lambda & Google Cloud Functions", category: "Serverless" },
+      { name: "zSeries IMS, DB2, iSeries/AS400 RPG II, Datacom DB, Sybase & PLSQL", category: "Mainframe & Legacy Systems" }
+    ],
+    technologies: [
+      { name: "Google BigQuery", category: "Big Data" },
+      { name: "Java, Spring Boot, Javascript, Node.js, Python & Django", category: "Backend" },
+      { name: "AWS CloudWatch & Google Cloud Monitoring", category: "Monitoring" },
+      { name: "REST APIs, GraphQL & SOAP Web Services", category: "APIs" },
+      { name: "Splunk", category: "Logging / SIEM" },
+      { name: "TensorFlow & PyTorch", category: "AI/ML" },
+      { name: "TypeScript, Angular & React", category: "Frontend" }
+    ],
+    tools: [
+      { name: "DataDog & AppDynamics", category: "APM" },
+      { name: "Looker, QuickSight,Tableau & Power BI", category: "Business Intelligence" },
+      { name: "Slack & Microsoft Teams", category: "Collaboration" },
+      { name: "Emma, PMD & SonarQube", category: "Code Quality" },
+      { name: "HubSpot", category: "CRM" },
+      { name: "Maven & Ansible", category: "Build Automation" },
+      { name: "NetSuite, MS Dynamics", category: "ERP" },
+      { name: "Okta, Auth0, AWS IAM & Google Cloud Identity", category: "Identity Management" },
+      { name: "ServiceNow", category: "IT Service Management" },
+      { name: "Monday, Jira & Confluence", category: "Project Management" },
+      { name: "Vault & AWS Secrets Manager", category: "Secrets Management" },
+      { name: "SVN, Git & GitHub/GitLab", category: "Version Control" }
+    ]
+  },
   contact: {
-    email: "reid@example.com",
-    phone: "+1 (555) 123-4567",
-    linkedin: "https://linkedin.com/in/reidlentz",
-    github: "https://github.com/reid-oooo",
-    twitter: "https://twitter.com/reidlentz"
+    email: "reid.lentz@icloud.com",
+    phone: "(901) 570-1702",
+    linkedin: "https://www.linkedin.com/in/reid-r-lentz",
+    podcast: "https://www.youtube.com/watch?v=_5UiriDQEUM",
+    resume: "insert resume here"
   }
 };
