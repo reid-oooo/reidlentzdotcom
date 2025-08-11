@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { resumeData } from "../data/resumeData";
-import { SparklesIcon, RocketLaunchIcon } from "@heroicons/react/24/outline";
+import { SparklesIcon, RocketLaunchIcon, CpuChipIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
 
 export default function Hero() {
   return (
@@ -91,6 +91,26 @@ export default function Hero() {
           >
             <RocketLaunchIcon className="w-5 h-5" />
             Explore My Work
+          </motion.a>
+          
+          <motion.a
+            href="#skills"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="inline-flex items-center gap-2 bg-orange-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-orange-600 transition-colors duration-300 shadow-lg hover:shadow-xl"
+          >
+            <CpuChipIcon className="w-5 h-5" />
+            View Technologies
+          </motion.a>
+          
+          <motion.a
+            href="#contact"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition-colors duration-300 shadow-lg hover:shadow-xl"
+          >
+            <EnvelopeIcon className="w-5 h-5" />
+            Connect With Me
           </motion.a>
           
           <motion.button

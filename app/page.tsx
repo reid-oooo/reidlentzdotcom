@@ -7,11 +7,25 @@ import Contact from '../components/Contact';
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <Hero />
-      <Achievements />
-      <Experience />
-      <Skills />
-      <Contact />
+      <section id="hero" aria-label="Introduction">
+        <Hero />
+      </section>
+      
+      <section id="achievements" aria-label="Key Achievements">
+        <Achievements />
+      </section>
+      
+      <section id="experience" aria-label="Work Experience">
+        <Experience />
+      </section>
+      
+      <section id="skills" aria-label="Platforms and Technologies">
+        <Skills />
+      </section>
+      
+      <section id="contact" aria-label="Contact Information">
+        <Contact />
+      </section>
     </main>
   );
 }

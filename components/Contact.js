@@ -172,15 +172,17 @@ export default function Contact() {
               Ready to work together?
             </h3>
             <p className="text-blue-100 mb-6">
-              I&apos;m currently available for freelance opportunities and full-time positions.
+              I&apos;m currently available for freelance, interim and fractional opportunities along with full-time positions.
             </p>
-            <motion.button
+            <motion.a
+              href={`mailto:${resumeData.contact.email}?subject=Let's Chat`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-gradient-to-r from-orange-400 to-orange-600 hover:from-orange-500 hover:to-orange-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
+              className="bg-gradient-to-r from-orange-400 to-orange-600 hover:from-orange-500 hover:to-orange-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl inline-block cursor-pointer"
+              style={{ textDecoration: 'none' }}
             >
               Start a Conversation
-            </motion.button>
+            </motion.a>
           </motion.div>
         </motion.div>
       </div>

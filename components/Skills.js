@@ -48,6 +48,7 @@ export default function Skills() {
     "Enterprise Storage & Backup": CircleStackIcon,
     "CI/CD & Automation": CogIcon,
     "Serverless": CloudIcon,
+    "Application Server": GlobeAltIcon,
     "Mainframe & Legacy Systems": ComputerDesktopIcon,
     "Build Automation": CommandLineIcon,
     "ERP": GlobeAltIcon,

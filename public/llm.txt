@@ -1,0 +1,52 @@
+# Reid Lentz - Technology & Engineering Executive
+
+## Professional Summary
+Reid Lentz is a Technology & Engineering Executive with 15+ years of experience in AI, digital transformation, and enterprise modernization. He has led $100M+ platform implementations, managed 250+ global teams, and achieved 50%+ efficiency gains across global operations.
+
+## Key Achievements
+- Led enterprise-scale AI implementations and $100M+ platform modernizations
+- Achieved 99%+ system reliability and 40%+ efficiency improvements
+- Drove $5M in ARR and supported $20M+ sales pipeline through SaaS platforms
+- Secured multi-million-dollar contracts with enterprise clients including Walmart.com
+- Directed teams of 250+ across data, engineering, AI, infrastructure, and operations
+- Pioneered award-winning platforms with AI-powered backbones across 180+ countries
+
+## Current Role
+Head Problem Solver & AI Optimizer at Cephas Partners, West Palm Beach, FL (2025 - Present)
+
+## Previous Experience
+- Chief Information & Technology Officer at Voyager Global Mobility (2023-2025)
+- Chief Product & Technology Officer at Ecomhalo (2021-2023)
+- Director of Software Engineering at FedEx Corporation (2020-2021)
+- Managing Director of Global IT Infrastructure & Operations at FedEx Trade Networks (2018-2020)
+- Manager IT, Enterprise Systems at FedEx (2013-2018)
+
+## Core Competencies
+- AI Strategy & Implementation
+- Digital Transformation
+- Enterprise Architecture
+- Cloud Architecture
+- SaaS Platforms
+- Team Leadership
+- DevOps & CI/CD
+- Platform Architecture
+- System Reliability
+- Cost Optimization
+
+## Technologies & Platforms
+- Cloud: AWS, Google Cloud Platform, Oracle Cloud Infrastructure
+- AI/ML: Python, TensorFlow, PyTorch
+- Backend: Java, Spring Boot, JavaScript, Node.js, Python, Django
+- Frontend: TypeScript, Angular, React
+- Databases: Oracle, MySQL, PostgreSQL, DynamoDB, MongoDB
+- DevOps: Kubernetes, Docker, Terraform, Jenkins, GitLab CI/CD
+- Monitoring: AWS CloudWatch, Google Cloud Monitoring, DataDog, AppDynamics
+- Legacy: zSeries IMS, DB2, iSeries/AS400, RPG II, Sybase
+
+## Contact Information
+- Email: reid.lentz@icloud.com
+- LinkedIn: https://www.linkedin.com/in/reid-r-lentz
+- Website: https://reidlentz.com
+
+## Location
+West Palm Beach, FL, United States

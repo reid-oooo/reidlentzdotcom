@@ -48,7 +48,7 @@ export const resumeData = {
       ],
     },
     {
-      company: "Voyager Global Mobility, NYC/Remote",
+      company: "Voyager Global Mobility, NYC / Remote",
       role: "Chief Information & Technology Officer",
       period: "2023 - 2025",
       achievements: [
@@ -69,7 +69,7 @@ export const resumeData = {
       ],
     },
     {
-      company: "FedEx Corporation, Memphis, TN",
+      company: "FedEx Logistics, Memphis, TN",
       role: "Director of Software Engineering, FedEx Logistics",
       period: "2020 - 2021",
       achievements: [
@@ -79,8 +79,8 @@ export const resumeData = {
       ],
     },
     {
-      company: "FedEx Trade Networks",
-      role: "Managing Director of Global IT Infrastructure & Operations",
+      company: "FedEx Trade Networks, Buffalo, NY",
+      role: "Managing Director of Global IT Systems, Infrastructure & Operations",
       period: "2018 - 2020",
       achievements: [
         "Oversaw $38M+ budgets and secured $7M in strategic funding.",
@@ -89,7 +89,7 @@ export const resumeData = {
       ],
     },
     {
-      company: "FedEx",
+      company: "FedEx Services, Colorado Springs, CO",
       role: "Manager IT, Enterprise Systems",
       period: "2013 - 2018",
       achievements: [
@@ -102,7 +102,7 @@ export const resumeData = {
   skills: {
     platforms: [
       { name: "Dell Storage Solutions", category: "Enterprise Storage & Backup" },
-      { name: "AWS Cloud Platform, Google Cloud Platform, Oracle Cloud Infrastructure", category: "Cloud Infrastructure" },
+      { name: "AWS, Google Cloud Platform, Oracle Cloud Infrastructure", category: "Cloud Infrastructure" },
       { name: "Kubernetes & Docker", category: "Containerization" },
       { name: "AWS Kinesis, Apache Kafka & Redis", category: "Data Streaming & Caching" },
       { name: "Dataflow & Snowflake", category: "Data Platforms" },
@@ -111,16 +111,17 @@ export const resumeData = {
       { name: "Terraform, CloudFormation & Ansible", category: "Infrastructure as Code" },
       { name: "Jenkins, CloudBees, GitLab CI/CD & GitHub Actions", category: "CI/CD & Automation" },
       { name: "AWS Lambda & Google Cloud Functions", category: "Serverless" },
+      { name: "WebLogic & Tomcat", category: "Application Server" },
       { name: "zSeries IMS, DB2, iSeries/AS400 RPG II, Datacom DB, Sybase & PLSQL", category: "Mainframe & Legacy Systems" }
     ],
     technologies: [
       { name: "Google BigQuery", category: "Big Data" },
+      { name: "TensorFlow & PyTorch", category: "AI/ML" },
+      { name: "TypeScript, Angular & React", category: "Frontend" },
       { name: "Java, Spring Boot, Javascript, Node.js, Python & Django", category: "Backend" },
       { name: "AWS CloudWatch & Google Cloud Monitoring", category: "Monitoring" },
-      { name: "REST APIs, GraphQL & SOAP Web Services", category: "APIs" },
-      { name: "Splunk", category: "Logging / SIEM" },
-      { name: "TensorFlow & PyTorch", category: "AI/ML" },
-      { name: "TypeScript, Angular & React", category: "Frontend" }
+      { name: "Splunk", category: "Logging / SIEM" }, 
+      { name: "REST APIs, GraphQL & SOAP Web Services", category: "APIs" }
     ],
     tools: [
       { name: "DataDog & AppDynamics", category: "APM" },
@@ -139,7 +140,7 @@ export const resumeData = {
   },
   contact: {
     email: "reid.lentz@icloud.com",
-    phone: "(901) 570-1702",
+    //phone: "(901) 570-1702",
     linkedin: "https://www.linkedin.com/in/reid-r-lentz",
     podcast: "https://www.youtube.com/watch?v=_5UiriDQEUM",
     resume: "insert resume here"
