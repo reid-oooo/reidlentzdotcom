@@ -98,7 +98,7 @@ export default function Skills() {
             Platforms & Technologies
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Platforms, tools, and technologies I've overseen and implemented across global operations
+            Platforms, tools, and technologies I&apos;ve overseen and implemented across global operations
           </p>
         </motion.div>
 

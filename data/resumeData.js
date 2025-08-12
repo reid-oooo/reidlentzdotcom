@@ -157,7 +157,7 @@ export const resumeData = {
   },
   contact: {
     email: "reid.lentz@icloud.com",
-    //phone: "(901) 570-1702",
+    
     linkedin: "https://www.linkedin.com/in/reid-r-lentz",
     podcast: "https://www.youtube.com/watch?v=_5UiriDQEUM",
     resume: "https://drive.google.com/file/d/1ZGu-vk5pFm0k_VsdpIaOM0LRt-xnPN2m/view"
