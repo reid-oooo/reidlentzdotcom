@@ -73,9 +73,9 @@ export default function Achievements() {
 
         {/* Interactive Timeline */}
         <div className="max-w-6xl mx-auto">
-          <div className="relative">
-            {/* Timeline line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-blue-400 to-purple-400"></div>
+          <div className="relative isolate">
+            {/* Timeline line (always behind cards; hidden on small screens) */}
+            <div className="absolute left-1/2 -translate-x-1/2 w-px md:w-1 h-full bg-gradient-to-b from-blue-400 to-purple-400 pointer-events-none -z-10 hidden md:block"></div>
             
             <div className="space-y-12">
               {resumeData.achievements.map((achievement, index) => {
@@ -110,11 +110,11 @@ export default function Achievements() {
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: index * 0.2 + 0.4 }}
                       viewport={{ once: true }}
-                      className={`flex-1 max-w-md ${isEven ? 'text-left' : 'text-right'}`}
+                    className={`relative z-10 flex-1 max-w-md ${isEven ? 'text-left' : 'text-right'}`}
                     >
                       <motion.div
                         whileHover={{ scale: 1.05, y: -5 }}
-                        className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100"
+                        className="relative z-10 bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100"
                       >
                         <div className={`flex items-center gap-4 ${isEven ? 'justify-start' : 'justify-end'}`}>
                           <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center">

@@ -71,17 +71,19 @@ export default function Experience() {
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-orange-400 to-purple-400"></div>
                 
                 <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6 gap-4">
-                  <div className="flex items-start gap-4 flex-1">
+                  <div className="flex items-start gap-4 flex-1 min-w-0">
                     <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-purple-500 rounded-xl flex items-center justify-center flex-shrink-0">
                       <BuildingOfficeIcon className="w-6 h-6 text-white" />
                     </div>
-                    <div className="flex-1 min-w-0">
+                      <div className="flex-1 min-w-0">
                       <h3 className="text-2xl font-bold text-gray-900">
                         {job.role}
                       </h3>
-                      <h4 className="text-xl font-semibold text-gray-700 mt-2 flex items-center gap-2">
+                        <h4 className="text-xl font-semibold text-gray-700 mt-2 flex items-center gap-2">
                         <BuildingOfficeIcon className="w-5 h-5 text-orange-500 flex-shrink-0" />
-                        <span className="truncate">{job.company}</span>
+                          <span className="whitespace-normal break-words leading-snug">
+                            {job.company}
+                          </span>
                       </h4>
                     </div>
                   </div>
@@ -90,7 +92,7 @@ export default function Experience() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5, delay: index * 0.2 + 0.3 }}
                     viewport={{ once: true }}
-                    className="flex items-center gap-2 bg-gradient-to-r from-orange-100 to-purple-100 text-orange-700 px-4 py-2 rounded-full font-semibold flex-shrink-0"
+                    className="flex items-center gap-2 bg-gradient-to-r from-orange-100 to-purple-100 text-orange-700 px-4 py-2 rounded-full font-semibold flex-shrink-0 whitespace-nowrap"
                   >
                     <CalendarIcon className="w-4 h-4 flex-shrink-0" />
                     <span className="whitespace-nowrap">{job.period}</span>
