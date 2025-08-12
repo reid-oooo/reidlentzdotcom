@@ -1,4 +1,5 @@
 import Hero from '../components/Hero';
+import Industries from '../components/Industries';
 import Achievements from '../components/Achievements';
 import Experience from '../components/Experience';
 import Skills from '../components/Skills';
@@ -9,6 +10,10 @@ export default function Home() {
     <main className="min-h-screen">
       <section id="hero" aria-label="Introduction">
         <Hero />
+      </section>
+      
+      <section id="industries" aria-label="Industry Experience">
+        <Industries />
       </section>
       
       <section id="achievements" aria-label="Key Achievements">

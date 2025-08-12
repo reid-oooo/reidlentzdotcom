@@ -4,6 +4,23 @@ export const resumeData = {
     title: "Technology & Engineering Executive",
     tagline: "Driving Digital Transformation, AI Innovation, and Enterprise Modernization",
   },
+  industries: [
+    {
+      description: "Large Enterprise",
+      roles: "Managing Director, Director, Manager IT, Applications Principal", 
+      areas: "Logistics, Supply Chain, eCommerce, Transportation, International Trade, Customs",
+    }, 
+    {
+      description: "Startup (0→1)", 
+      roles: "CTO, CPO, CIO", 
+      areas: "SaaS, eCommerce, Retail, Distribution, Transportation",
+    }, 
+    {
+      description: "Scaling Growth Company", 
+      roles: "CTO, CPO, CIO", 
+      areas: "SaaS, Fleet Management, Telematics, FinTech (Subprime Leasing and Insurance)", 
+    }  
+  ],
   achievements: [
     {
       title: "AI & Digital Transformation Leadership",
@@ -143,6 +160,6 @@ export const resumeData = {
     //phone: "(901) 570-1702",
     linkedin: "https://www.linkedin.com/in/reid-r-lentz",
     podcast: "https://www.youtube.com/watch?v=_5UiriDQEUM",
-    resume: "insert resume here"
+    resume: "https://drive.google.com/file/d/1ZGu-vk5pFm0k_VsdpIaOM0LRt-xnPN2m/view"
   }
 };

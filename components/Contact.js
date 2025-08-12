@@ -175,11 +175,11 @@ export default function Contact() {
               I&apos;m currently available for freelance, interim and fractional opportunities along with full-time positions.
             </p>
             <motion.a
-              href={`mailto:${resumeData.contact.email}?subject=Let's Chat`}
+              href={`mailto:${resumeData.contact.email}?subject=${encodeURIComponent("Let's Chat")}`}
+              aria-label="Start an email conversation"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-gradient-to-r from-orange-400 to-orange-600 hover:from-orange-500 hover:to-orange-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl inline-block cursor-pointer"
-              style={{ textDecoration: 'none' }}
+              className="bg-gradient-to-r from-orange-400 to-orange-600 hover:from-orange-500 hover:to-orange-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl inline-block cursor-pointer no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
             >
               Start a Conversation
             </motion.a>

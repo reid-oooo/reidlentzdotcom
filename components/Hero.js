@@ -113,14 +113,17 @@ export default function Hero() {
             Connect With Me
           </motion.a>
           
-          <motion.button
+          <motion.a
+            href={resumeData.contact.resume}
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition-colors duration-300"
+            className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition-colors duration-300 cursor-pointer"
           >
             <SparklesIcon className="w-5 h-5" />
             Download Resume
-          </motion.button>
+          </motion.a>
         </motion.div>
       </motion.div>
     </section>
